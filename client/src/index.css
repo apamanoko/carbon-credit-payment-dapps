@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: rgb(50, 82, 143);
+  background: linear-gradient(
+    126deg,
+    rgba(173, 192, 212, 0.942) 21%,
+    rgb(222, 226, 232) 94%
+  );
+  height: 100vh;
+  overflow: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.App {
+  height: 100%;
+  width: 100%;
+}
+
+.title h1 {
+  font-size: 75px;
+  font-weight: 700;
+  margin-bottom: 30px;
+  margin-top: 70px;
+  color: black;
+}
+
+.connectWallet button {
+  padding: 2px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: rgb(43, 48, 49);
+  background-color: #101f55;
+  transition: all 0.3s;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 191, 255, 0.075);
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+  border: 2px rgba(255, 255, 255, 0.4) solid;
+  border-bottom: 2px rgba(40, 40, 40, 0.35) solid;
+  border-right: 2px rgba(40, 40, 40, 0.35) solid;
+}
+
+.connectWallet button:hover {
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  background-color: rgba(8, 8, 8, 0.075);
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+  border: 2px rgba(255, 255, 255, 0.4) solid;
+  border-bottom: 2px rgba(40, 40, 40, 0.35) solid;
+  border-right: 2px rgba(40, 40, 40, 0.35) solid;
+  color: rgb(48, 8, 8);
+}
+
+.buttonText {
+  font-size: 15px;
+}
+
+.mainContainer {
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.sendContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.sendContainer p {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  color: black;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    background-color: #342356;
+    backdrop-filter: blur(1px);
+    padding: 0px 30px;
+    width: 400px;
+    height: 330px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 191, 255, 0.075);
+    box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+    border: 2px rgba(255, 255, 255, 0.4) solid;
+    border-bottom: 2px rgba(40, 40, 40, 0.35) solid;
+    border-right: 2px rgba(40, 40, 40, 0.35) solid;
+}
+
+.inputContainer input {
+  padding: 10px 15px;
+  outline: none;
+  border-radius: 10px;
+  border: 1px #727580 dotted;
+  background-color: #f0f0f3;
+  color: white;
+}
+
+.inputContainer button {
+  border-radius: 10px;
+  border: none;
+  padding: 7px;
+  font-size: 16px;
+  background: rgb(50, 82, 143);
+  background: linear-gradient(
+    126deg,
+    rgba(50, 82, 143, 0.9416141456582633) 21%,
+    rgba(104, 60, 147, 1) 94%
+  );
+  cursor: pointer;
+  transition: all 0.3s;
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 191, 255, 0.075);
+  box-shadow: rgba(0, 0, 0, 0.3) 2px 8px 8px;
+  border: 2px rgba(255, 255, 255, 0.4) solid;
+  border-bottom: 2px rgba(40, 40, 40, 0.35) solid;
+  border-right: 2px rgba(40, 40, 40, 0.35) solid;
+  color: white;
+}
+
+.inputContainer button:hover {
+  background-color: #0e384f;
+  color: rgb(13, 12, 12);
+}
+
+/* inputエリアの入力文字の色を黒に変更 */
+input[type="text"] {
+  color: black;
+}
+
+input[type="number"] {
+  color: black;
+}
